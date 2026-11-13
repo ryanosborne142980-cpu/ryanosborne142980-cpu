@@ -1,4 +1,4 @@
-# Ryan Osborne (Rosbo)
+# Ryan Osborne
 
 Data engineer with 18+ years in IT across data engineering, data governance, and business analysis. I design and build data pipelines, warehouses, and the governance around them, so that the numbers people report on can be trusted. Based in the Columbus, OH area.
 
@@ -15,15 +15,14 @@ Data engineer with 18+ years in IT across data engineering, data governance, and
 |---|---|
 | Languages | SQL (T-SQL), Python |
 | Azure | Synapse, Data Factory, ADLS, Azure DevOps (CI/CD) |
-| Platforms | SQL Server, Snowflake, Microsoft Fabric |
+| Platforms | SQL Server, Databricks, Snowflake, Microsoft Fabric |
 | Governance | Collibra, Informatica, IBM Cloud Pak |
 | Reporting | Power BI |
 
 ## Projects
 
-- [email-cadence-case-study](https://github.com/ryanosborne142980-cpu/email-cadence-case-study): T-SQL case study
-
-More portfolio projects are on the way.
+- **[columbus_housing](https://github.com/ryanosborne142980-cpu/columbus_housing)**: Weekly pipeline that turns Franklin County's home-sale report pages into parcel-level sales data, checked against the county's own counts. Python and SQL Server load the data, Databricks holds bronze and silver tables, a 23-rule quality gate stops bad data before it lands, and GitHub Actions runs the tests against a real SQL Server on every pull request.
+- **[nfl-injury-analyzer](https://github.com/ryanosborne142980-cpu/nfl-injury-analyzer)**: In progress. A dimensional warehouse of NFL player availability and injuries since 2010, built from nflverse data on SQL Server. The extract and raw-layer load are built and tested. Staging, dimensions, and facts are next.
 
 ## Domain experience
 
