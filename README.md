@@ -1,6 +1,6 @@
 # Ryan Osborne
 
-Data engineer with 18+ years in IT across data engineering, data governance, and business analysis. I design and build data pipelines, warehouses, and the governance around them, so that the numbers people report on can be trusted. Based in the Columbus, OH area.
+Data engineer with 18+ years in IT across data engineering, data governance, and business analysis. 
 
 ## What I do
 
