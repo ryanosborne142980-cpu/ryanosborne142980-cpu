@@ -28,10 +28,6 @@ Data engineer with 18+ years in IT across data engineering, data governance, and
 
 Financial services, reinsurance, and credit card operations. Across those I have worked on financial reconciliation, reporting automation, and data quality at scale.
 
-## Background
-
-B.S. in Journalism, Bowling Green State University. I moved from product support and business analysis into data governance and then data engineering, which is why I care as much about documenting and testing data as I do about moving it.
-
 ## Connect
 
 [Portfolio](https://ryanosborne142980-cpu.github.io) | [LinkedIn](https://www.linkedin.com/in/ryan-osborne-20306014)
