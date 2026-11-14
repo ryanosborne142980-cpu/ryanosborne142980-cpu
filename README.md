@@ -31,7 +31,7 @@ Data engineer with 18+ years in IT across data engineering, data governance, and
 - [Source data profile](https://github.com/ryanosborne142980-cpu/nfl-injury-analyzer/blob/main/docs/data_profile.md) — measured findings that drive staging rules.
 - [Data extraction](https://github.com/ryanosborne142980-cpu/nfl-injury-analyzer/blob/main/src/ingestion/extract.py) — retry-aware downloads with checksums and manifests.
 
-## Planned learning work
+## Planned projects
 
 - **Ingest and move:** batch/API ingestion, streaming, migration, orchestration, and backfills
 - **Store and transform:** lakehouse design, incremental processing, and warehouse modeling
