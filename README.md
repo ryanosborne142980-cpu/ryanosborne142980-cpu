@@ -24,6 +24,13 @@ Data engineer with 18+ years in IT across data engineering, data governance, and
 - **[columbus_housing](https://github.com/ryanosborne142980-cpu/columbus_housing)**: Weekly pipeline that turns Franklin County's home-sale report pages into parcel-level sales data, checked against the county's own counts. Python and SQL Server load the data, Databricks holds bronze and silver tables, a 23-rule quality gate stops bad data before it lands, and GitHub Actions runs the tests against a real SQL Server on every pull request.
 - **[nfl-injury-analyzer](https://github.com/ryanosborne142980-cpu/nfl-injury-analyzer)**: In progress. A dimensional warehouse of NFL player availability and injuries since 2010, built from nflverse data on SQL Server. The extract and raw-layer load are built and tested. Staging, dimensions, and facts are next.
 
+## Selected files
+
+- [Data quality rules](https://github.com/ryanosborne142980-cpu/columbus_housing/blob/main/pipeline/quality.py) — source-count, volume, and record-consistency checks.
+- [SQL Server schema](https://github.com/ryanosborne142980-cpu/columbus_housing/blob/main/sql/schema.sql) — landing and cleaned data tables.
+- [Source data profile](https://github.com/ryanosborne142980-cpu/nfl-injury-analyzer/blob/main/docs/data_profile.md) — measured findings that drive staging rules.
+- [Data extraction](https://github.com/ryanosborne142980-cpu/nfl-injury-analyzer/blob/main/src/ingestion/extract.py) — retry-aware downloads with checksums and manifests.
+
 ## Domain experience
 
 Financial services, reinsurance, and credit card operations. Across those I have worked on financial reconciliation, reporting automation, and data quality at scale.
